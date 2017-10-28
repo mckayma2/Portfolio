@@ -1,183 +1,245 @@
-/* page background*/
+/*body*/
 body{
+width:90%;
+font-family:arial;
+}
+/*header box */
+#headercontainer{
+position: relative;
+top:0;
+margin:0;
+padding:3%;
+height:15px;
+margin-bottom:5px;
+font-size : 1.5vw;overflow: hidden;
+}
+/*header name box*/
+#name{
+position: absolute;
+top:0;
+left:10%;
+background-color:cadetblue;
+padding:2% 3% 4.35% 3%;
+width:175px;
+height:15px;
+color:white;
+text-align:center;
+font-weight:bold;
+font-family: arial;
+}
+/*header link about */
+#about a{
+position: absolute;
+top:0;
+right:35%;
+padding:0% 1% 0% 1%;
+width:6%;
+height:40%;
+text-decoration:none;
+color:darkgrey;
+font-weight:bold;
+font-family: arial;
+font-size : 1.5vw;overflow: hidden;
+text-align:center;
+}
+/*header link portfolio */
+#portfolio a{
+position: absolute;
+top:0;
+right:25%;
+padding:0% 1% 0% 1%;
+width:6%;
+height:40%;
+text-decoration:none;
+color:darkgrey;
+text-align:center;
+border-left: 0.5px solid grey;
+font-size : 1.5vw;overflow: hidden;
+font-weight:bold;
+font-family: arial;
+text-align:center;
+}
+/*header link contact*/
+#contact a{
+position: absolute;
+top:0;
+right:15%;
+padding:0% 1% 0% 1%;
+width:6%;
+height:40%;
+text-decoration:none;
+color:darkgrey;
+text-align:center;
+border-left: 0.5px solid grey;
+font-weight:bold;
+font-family: arial;
+font-size : 1.5vw;overflow: hidden;
+text-align:center;
+}
+/*main content box*/
+#main{
+position:relative;
 background-image:url("../img/pgbkg.jpg");
 background-size:cover;
-}
+padding:38%;
 
-/* Header background*/
-#hdr{
-background-color: orange;
-background-image:linear-gradient(to top, black 0%, transparent 100%), url("../img/codebkg.jpg");
-background-size:cover;
-padding: 65px;
-margin:0;
+border-bottom: 6.5px solid cadetblue;
+box-shadow: 1px 1px 1px 1px grey inset
 }
-
-/* Navigation Box*/
-nav{
-background-image:linear-gradient(to bottom, black 0%, transparent 100%);
-position:relative;
-}
-
-/* Photo div*/
-#me{
-margin:0 auto;
-width:50%;
-}
-
-/* Photo alignment*/
-#me img{
-display:flex;
-margin:0 auto;
-width: 200px;
-border-radius: 50%;
-}
-
-/* Header text alignment*/
-header h1, h2 {
-text-align:center;
-color: white;
-text-shadow: 1px 1px 2px lightgreen;
-font-family:helvetica;
-}
-
-/*header H1 text size */
-header h1{
-font-size:50px;
-}
-
-/*Navigation links */
-#home, #myWork, #about, #contact{
-text-align:center;
-padding: 15px;
-background-color: darkgreen;
-border-radius: 15%;
-display:inline-flex;
-margin:1px;
-height: 15px;
-width:65px;
-box-shadow: 4px 4px 5px black;
-}
-
-/* Navigation Links hover */
-#home:hover, #myWork:hover, #about:hover, #about:hover, #contact:hover {
-background-color: green;
-}
-
-/* Navigation Links */
-nav a{
-text-decoration: none;
-color: white;
-font-family: arial;
-display: flex;
-margin: 0 auto;
-}
-
-nav a:hover{
-color:goldenrod;
-font-weight: bold;
-}
-
-/* footer background*/
+/*footer*/
 footer{
-background-color:darkgreen;
-padding: 1%;
-background-image:linear-gradient(to bottom, black 10%, transparent 50%);
-margin: 0 auto;
-color: white;
+position: relative;
+top:75%;
+background-color:darkgrey;
+padding:2%;
+color:white;
 text-align:center;
 }
-
-/* content - portfolio work */
-#cont{
-position: relative;
-background-color:grey;
-margin:0 auto;
-width:650px;
-height:650px;
-
+/*about me box*/
+#me{
+position: absolute;
+top:10%;
+left:10%;
+padding:0% 1% 0% 1%;
+width:55%;
+height:60%;
+text-decoration:none;
+color:darkgrey;
+text-align:left;
+margin: 5px;
+font-family: arial;
+line-height: 170%;
+color: darkgrey;
+letter-spacing: 120%;
+font-family: arial;
+background-color:white;
+font-size : 1.5vw;overflow: hidden;
 }
+/*Social networks box*/
+#connect{
+position: absolute;
+top:10%;
+right:4%;
+padding:0% 1% 0% 1%;
+width:25%;
+height:25%;
+text-decoration:none;
+color:darkgrey;
+text-align:center;
+font-size : overflow: hidden;
+margin: 5px;
+font-weight:bold;
+font-family: arial;
+background-color:white;
+}
+/*image of me header*/
+#me h3{
+text-align:left;
+color:cadetblue;
+padding:2%;
+border-bottom: .5px solid grey;
+font-size : 2vw;overflow: hidden;
+}
+/*image of me*/
+#mario{
+float:left;
+margin:0px 10px 2px 0px;
+box-shadow: 2px 2px 2px grey;
+height:40%;
+width:30%;
+font-size : 1.5vw;overflow: hidden;
+}
+/*Social networks box header*/
+#connect h3{
+text-align:center;
+color:cadetblue;
+padding:2%;
+border-bottom: .5px solid grey;
+font-size : 2vw;overflow: hidden;
+}
+/*Social networks*/
+#connect img{
+height: 25%;
+width:25%;
+padding: 2%;
+/*Links Hover*/
+}
+#about a:hover, #portfolio a:hover, #contact a:hover{
+color: goldenrod;
+}
+
+/*portfolio page*/
+
+
 /* content - b1 */
 #b1{
-position: absolute;
-top:2%;
-left:2%;
-background-color:lightgray;
+position:absolute;
+top:24%;
+left:12%;
 margin:0 auto;
-width:46.5%;
-height:46.5%;
+width:35%;
+height:35%;
+box-shadow: 1px 1px 1px grey;
 }
 
 /* content - b2 */
 #b2{
 position: absolute;
-top:2%;
-right:2%;
-background-color:lightgray;
+top:24%;
+right:12%;
 margin:0 auto;
-width:46.5%;
-height:46.5%;
+width:35%;
+height:35%;
+box-shadow: 1px 1px 1px grey;
 }
 
 /* content - b3 */
 #b3{
 position: absolute;
-bottom:2%;
-left:2%;
-background-color:lightgray;
+bottom:4%;
+left:12%;
 margin:0 auto;
-width:46.5%;
-height:46.5%;
+width:35%;
+height:35%;
+box-shadow: 1px 1px 1px grey;
 }
 
 /* content - b4 */
 #b4{
 position: absolute;
-bottom:2%;
-right:2%;
-background-color:lightgray;
+bottom:4%;
+right:12%;
 margin:0 auto;
-width:46.5%;
-height:46.5%;
+width:35%;
+height:35%;
+box-shadow: 1px 1px 1px grey;
 }
-/* content Links heading */
-#cont h3{
-color:white;
-background-color:cadetblue;
-text-align: center;
-padding: 10%;
+/* images*/
+#b1 img, #b2 img, #b3 img, #b4 img{
+height:65%;
+width:65%;
+display:flex;
+margin: 0 auto;
 }
-/* content Links heading hover */
-#cont h3:hover{
+/* box hover effects */
+#b1:hover, #b2:hover, #b3:hover, #b4:hover{
+transform: rotate(7deg);
+
+}
+/* box hover effects */
+#b1 h4:hover, #b2 h4:hover, #b3 h4:hover, #b4 h4:hover{
 background-color:goldenrod;
 }
 
-/* content Links hover */
-#b1:hover, #b2:hover, #b3:hover, #b4:hover {
-background-color: silver;
-
-}
-/* content Links image */
-#b1 img, #b2 img, #b3 img, #b4 img{
-width:60%;
-height:60%;
-display:flex;
-margin:0 auto;
-
-}
-/* about main text color */
-#ab {
-color:white;
+#b1 h4, #b2 h4, #b3 h4, #b4 h4{
+position: absolute;
+width:90%;
+height: 10%;
+bottom:0;
 text-align:center;
-
+background-color: cadetblue;
+padding: 5%;
+color:white;
 }
 
-/* about list */
-#ab ul{
-list-style-type: none;
-}
 
-/* about p font size */
-#ab p{
-font-size: 15px;
-}
